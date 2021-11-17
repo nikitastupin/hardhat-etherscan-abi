@@ -10,19 +10,19 @@ manually downloading ABI: `ethers.getVerifiedContractAt('<address>')`. It suppor
 ## Installation
 
 ```bash
-npm install --save-dev hardhat-etherscan-abi
+npm install --save-dev @nikitastupin/hardhat-etherscan-abi
 ```
 
 And add the following statement to your `hardhat.config.js`:
 
 ```js
-require("hardhat-etherscan-abi");
+require("@nikitastupin/hardhat-etherscan-abi");
 ```
 
 Or, if you are using TypeScript, add this to your `hardhat.config.ts`:
 
 ```js
-import "hardhat-etherscan-abi";
+import "@nikitastupin/hardhat-etherscan-abi";
 ```
 
 ## Tasks
